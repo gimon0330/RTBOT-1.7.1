@@ -611,4 +611,5 @@ async def on_message(message):
 
 
     #봇 실행
-client.run("NjYxNDc3NDYwMzkwNzA3MjAx.XiUrkA.BafTBE2j93-izmUi1uzmq-cZWjY")
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
