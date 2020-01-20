@@ -1,7 +1,6 @@
 asyncio
 discord.py>=1.2.5
 datetime
-random
 time
 bs4
 os
