@@ -1,1 +1,12 @@
-discord.py==0.16.12
+asyncio
+discord.py>=1.2.5
+urllib
+datetime
+random
+time
+bs4
+os
+sys
+json
+configparser
+selenium
