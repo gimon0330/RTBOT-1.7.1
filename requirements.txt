@@ -1,6 +1,5 @@
 asyncio
 discord.py>=1.2.5
-urllib
 datetime
 random
 time
