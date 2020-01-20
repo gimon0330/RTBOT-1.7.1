@@ -1,9 +1,7 @@
 asyncio
 discord.py>=1.2.5
 datetime
-time
 bs4
-os
 sys
 json
 configparser
