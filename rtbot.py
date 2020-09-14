@@ -18,7 +18,7 @@ async def bg_change_playing():
         members_sum = 0
         for s in client.guilds:
             members_sum += len(s.members)
-        presences_list = ["드립 공부", "알티봇 V2.7.1", "'봇 도움말'로 봇명령어 알아보기", str(len(client.guilds)) + "개의 서버 다니는중", str(members_sum) + "명의 유저들과 함깨"]
+        presences_list = ["드립 공부", "알티봇 V1.7.1", "'봇 도움말'로 봇명령어 알아보기", str(len(client.guilds)) + "개의 서버 다니는중", str(members_sum) + "명의 유저들과 함깨"]
         for v in presences_list:
             await asyncio.sleep(9)
             await client.change_presence(activity=discord.Game(v))
